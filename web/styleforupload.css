@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(newbg.png);
+}
+
+
+
+#navbar {
+    background-color: #ba7743;
+}
+
+#navContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    padding: 30px 20px;
+    color: azure;
+    font-family: 'poppins medium';
+
+
+}
+
+
+#buffalo {
+    height: 80px;
+    position: absolute;
+    left: 635px;
+    top: 8px;
+}
+
+#uploadSection {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    
+}
+
+#innerSection {
+    margin-top: 40px;
+    margin-bottom: 0rem;
+    padding: 50px 20px;
+    margin-bottom: 3rem;
+    background: white;
+    border-radius: 12px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+}
+
+#addPhoto {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 13rem;
+    left: 8rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+#gallery {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+#similaritySection {
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    top: 13rem;
+    left: 42rem;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.1);
+}
+
+#descriptionSection {
+    position: relative;
+    height: 380px;
+    width: 700px;
+    top: 16rem;
+    left: 36rem;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.1);
+
+}
+
+#similaritySection, #descriptionSection {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+#similaritySection h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+#descriptionSection h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#breedDescription {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #555;
+}
+
+
+#footer {
+    height: 220px;
+    width: 100%;
+    background-color: #8c4107;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'poppins';
+    color: #fdf7e6;
+}
+
+#box1 {
+    height: 200px;
+    width: 300px;
+    
+    position: absolute;
+    left: 25px;
+    
+
+}
+
+#box1 a {
+    text-decoration: none;
+    color: #fdf7e6;
+}
+
+#box1 h2{
+    padding-top:1rem ;
+    padding-bottom: 3rem;
+    left: 10px;
+}
+
+#box2 {
+    height: 200px;
+    width: 300px;
+   
+    position: absolute;
+    left: 25rem;
+    
+
+}
+
+#imgFooter {
+    position: absolute;
+    left: 4rem;
+}
+
+#box2 img {
+    height: 40px;
+    margin-top: 5rem; 
+}
+
+#box2 p {
+    top: 8rem;
+    left: 6rem;
+    position: absolute;
+}
+
+
+#box3 {
+    height: 200px;
+    width: 300px;
+    
+    position: absolute;
+    left: 48rem;
+    
+}
+
+#box3 h2 {
+    top: 1rem;
+    left: 5rem;
+    position: absolute;
+    padding-bottom: 3rem;
+}
+
+
+
+#box3 a{
+    text-decoration: none;
+    color: #fdf7e6;
+    
+    
+}
+
+#box3 h3 {
+    position: absolute;
+    font-size: 18px;
+    top: 5rem;
+    left: 5.5rem;
+
+
+}
+
+#box3 p {
+    position: absolute;
+    font-size: 18px;
+    top: 8rem;
+    left: 7rem;
+}
+
+#box4 {
+    height: 200px;
+    width: 400px;
+    
+    position: absolute;
+    left: 72rem;
+    
+}
+
+#box4 img {
+    position: absolute;
+    height: 5.8rem;
+}
+
+#box4 h2 {
+    position: absolute;
+    left: 5.8rem;
+    top: 1.4rem;
+}
+
+#box4 h3 {
+    position: absolute;
+    top: 5rem;
+    font-weight: 100;
+}
+
+#box4 p {
+    position: absolute;
+    top: 9rem;
+    font-weight: 100;
+}

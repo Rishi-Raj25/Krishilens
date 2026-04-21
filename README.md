@@ -1,12 +1,12 @@
-# Krishi Lips – Livestock Breed Identification System
+# KrishiLens – Livestock Breed Identification System
 
-Krishi Lips is a web-based application designed to identify cow and buffalo breeds from image inputs using basic machine learning techniques. The project demonstrates the practical application of image classification in the agricultural domain, helping bridge technology and livestock management.
+KrishiLens is a web-based application designed to identify cow and buffalo breeds from image inputs using basic machine learning techniques. The project demonstrates the practical application of image classification in the agricultural domain, helping bridge technology and livestock management.
 
 ---
 
 ## Overview
 
-In rural and agricultural settings, identifying livestock breeds accurately can be important for productivity, breeding decisions, and resource planning. Krishi Lips aims to provide a simple digital solution by allowing users to upload images of animals and receive breed predictions using a machine learning model.
+In rural and agricultural settings, identifying livestock breeds accurately can be important for productivity, breeding decisions, and resource planning. KrishiLens aims to provide a simple digital solution by allowing users to upload images of animals and receive breed predictions using a machine learning model.
 
 This project focuses on integrating a basic image classification model with a user-friendly web interface.
 

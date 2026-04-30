@@ -27,8 +27,10 @@ body {
     padding: 30px 20px;
     color: azure;
     font-family: 'poppins medium';
-
-
+    align-items: center;
+    padding: 20px 20px;
+    color: azure;
+    font-family: 'poppins medium';
 }
 
 #navContent h2 :hover {
@@ -53,71 +55,78 @@ body {
 }
 
 #buffalo {
-    height: 80px;
+    height: 60px;
     position: absolute;
-    left: 120px;
-    top: 8px;
+    left: 40px;
+    top: 10px;
 }
 
 #bigBuffalo {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
 }
 
 #bigBuffalo img{
     height: 400px;
-    position: absolute;
-    top: 5rem;
+    position: relative;
+    transition: transform 0.5s ease-out;
+}
 
+#bigBuffalo img:hover {
+    transform: scale(1.02);
 }
 
 #description {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 22rem;
-    
+    width: 100%;
 }
  
 #upload {
-    position: absolute;
-    top: 27rem;
-    left: 20rem;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0 20px;
 }
 
 #upload h1{
     font-size: 4rem;
     padding-bottom: 1rem;
     font-family: 'poppins Semibold';
-    font-weight: 400;
+    font-weight: 600;
     
 }
 
 #upload h2 {
     padding-bottom: 2rem;
     font-family: 'poppins medium';
-    font-weight: 100;
+    font-weight: 300;
+    max-width: 800px;
+    margin: 0 auto;
     
     
 }
 
 #upload button {
-    position: absolute;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-family:  'poppins regular';
-    padding: 10px 30px;
+    padding: 12px 40px;
     border-radius: 35px;
     color: white;
     background-color: green;
-    left: 19.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 128, 0, 0.3);
 }
 
 #upload button:hover {
-    background-color: burlywood;
-    color: green;
-    transform: scale(1);
+    background-color: #228B22; /* ForestGreen for smoother look */
+    color: white;
+    transform: scale(1.03);
     cursor: pointer;
+    box-shadow: 0 6px 25px rgba(0, 128, 0, 0.4);
 }
 
 #about {
@@ -334,136 +343,58 @@ body {
 
 
 #footer {
-    height: 220px;
+    min-height: 250px;
     width: 100%;
     background-color: #8c4107;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    gap: 40px;
+    color: #fdf7e6;
     font-family: 'poppins';
-    color: #fdf7e6;
 }
 
-#box1 {
-    height: 200px;
-    width: 300px;
-    
-    position: absolute;
-    left: 25px;
-    
-
+#box1, #box2, #box3, #box4 {
+    position: relative;
+    height: auto;
+    width: auto;
+    min-width: 200px;
+    text-align: left;
 }
 
-#box1 a {
-    text-decoration: none;
-    color: #fdf7e6;
+#box1 h2, #box3 h2, #box4 h2 {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
 }
 
-#box1 h2{
-    padding-top:1rem ;
-    padding-bottom: 3rem;
-    left: 10px;
-}
-
-#box2 {
-    height: 200px;
-    width: 300px;
-   
-    position: absolute;
-    left: 25rem;
-    
-
+#box1 p, #box3 a, #box4 p {
+    font-size: 1rem;
+    line-height: 1.8;
 }
 
 #imgFooter {
-    position: absolute;
-    left: 4rem;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
 }
 
 #box2 img {
-    height: 40px;
-    margin-top: 5rem; 
+    height: 35px;
 }
 
 #box2 p {
-    top: 8rem;
-    left: 6rem;
-    position: absolute;
-}
-
-
-#box3 {
-    height: 200px;
-    width: 300px;
-    
-    position: absolute;
-    left: 48rem;
-    
-}
-
-#box3 h2 {
-    top: 1rem;
-    left: 5rem;
-    position: absolute;
-    padding-bottom: 3rem;
-}
-
-
-
-#box3 a{
-    text-decoration: none;
-    color: #fdf7e6;
-    
-    
-}
-
-#box3 h3 {
-    position: absolute;
-    font-size: 18px;
-    top: 5rem;
-    left: 5.5rem;
-
-
-}
-
-#box3 p {
-    position: absolute;
-    font-size: 18px;
-    top: 8rem;
-    left: 7rem;
-}
-
-#box4 {
-    height: 200px;
-    width: 400px;
-    
-    position: absolute;
-    left: 72rem;
-    
+    margin-top: 10px;
+    font-size: 0.9rem;
+    opacity: 0.8;
 }
 
 #box4 img {
-    position: absolute;
-    height: 5.8rem;
+    height: 4rem;
+    margin-bottom: 10px;
 }
 
-#box4 h2 {
-    position: absolute;
-    left: 5.8rem;
-    top: 1.4rem;
-}
-
-#box4 h3 {
-    position: absolute;
-    top: 5rem;
-    font-weight: 100;
-}
-
-#box4 p {
-    position: absolute;
-    top: 9rem;
-    font-weight: 100;
-}
 
 #uploadSection {
     height: 750px;

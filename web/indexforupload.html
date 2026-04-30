@@ -19,24 +19,38 @@
 
 <div id="uploadSection">
     <div id="innerSection">
-        <div id="addPhoto">
-    <input type="file" id="fileInput" accept="image/*" style="display:none;">
-    <a href="#"><img id="gallery" src="https://static.thenounproject.com/png/104062-200.png"></a>
-    <button id="cutBtn" style="display:none;">✖</button>
-</div>
-
-        <!-- Breed Name -->
-        <div id="similaritySection">
-            <h2 id="breedName">Breed Name will appear here</h2>
+        
+        <!-- LEFT COLUMN: Upload & Analyze -->
+        <div class="left-col">
+            <div id="addPhoto">
+                <input type="file" id="fileInput" accept="image/*" style="display:none;">
+                <a href="#"><img id="gallery" src="https://static.thenounproject.com/png/104062-200.png"></a>
+                <button id="cutBtn" style="display:none;">✖</button>
+            </div>
+            <button id="analyzeBtn" style="display:none;">Analyze Breed</button>
         </div>
 
-        <!-- Breed Description -->
-        <div id="descriptionSection">
-            <h3>Description</h3>
-            <p id="breedDescription">Upload an image to see breed details here.</p>
+        <!-- RIGHT COLUMN: Results -->
+        <div class="right-col">
+            <!-- Breed Name -->
+            <div id="similaritySection">
+                <h2 id="breedName">Breed Name will appear here</h2>
+                <p id="confidenceScore" style="color: #8c4107; font-weight: 600; margin-top: 5px;"></p>
+            </div>
+
+            <!-- Breed Description -->
+            <div id="descriptionSection">
+                <h3>Description</h3>
+                <ul id="breedDescription">
+                    <li>Upload an image to see breed details here.</li>
+                </ul>
+            </div>
+
         </div>
+
     </div>
 </div>
+
 
 <!-- contact us -->
  

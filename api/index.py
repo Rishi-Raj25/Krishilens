@@ -7,7 +7,7 @@ import os
 import io
 
 app = Flask(__name__, 
-            static_folder='../static', 
+            static_folder='../web', 
             template_folder='../web')
 CORS(app)
 
